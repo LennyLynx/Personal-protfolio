@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">LM</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#timetable">Timetable</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to My First Web Page</h1>
+    </header>
+
+    <!-- Main Content Container -->
+    <main>
+
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <figure>
+                    <img src="campus.jpg" alt="NUST Campus" width="300">
+                    <figcaption>Figure 1: NUST Campus</figcaption>
+                </figure>
+                <article>
+                    <p>My name is <b>Lenny</b>. I am a <i>second</i> year Computer <u>Science</u> student. I <sup>enjoy</sup> learning <sub>WAD</sub>.</p>
+                    <p>I am currently enrolled in the Bachelor of Computer Science degree program at NUST.<br>I enjoy learning about distributed systems, networking, and building websites.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Grid container around Hobbies and Favourite Programming Language -->
+        <div class="grid-container">
+            <section id="hobbies">
+                <h2>My Hobbies</h2>
+                <ul>
+                    <li>Playing Genshin Impact</li>
+                    <li>Sim racing on Rennsport</li>
+                    <li>Listening to music on Spotify</li>
+                </ul>
+
+                <h3>Favourite Foods</h3>
+                <ul>
+                    <li>Pizza</li>
+                    <li>Rice</li>
+                    <li>Chicken</li>
+                    <li>Apples</li>
+                </ul>
+
+                <h3>Steps to Study HTML</h3>
+                <ol>
+                    <li>Read notes</li>
+                    <li>Watch demonstrations</li>
+                    <li>Complete practical exercises</li>
+                    <li>Test the webpage</li>
+                </ol>
+            </section>
+
+            <section id="fav-lang">
+                <h2>My Favourite Programming Language</h2>
+                <ul>
+                    <li>Python</li>
+                </ul>
+
+                <h3>Favourite Website</h3>
+                <p>Check out my favourite website: <a href="https://youtube.com" target="_blank">YouTube</a></p>
+
+                <h3>External Links</h3>
+                <ul>
+                    <li><a href="https://google.com" target="_blank">Open Google</a></li>
+                    <li><a href="https://nust.na" target="_blank">Open NUST</a></li>
+                    <li><a href="mailto:lynxenglish@gmail.com">Send Email</a></li>
+                </ul>
+            </section>
+        </div>
+
+        <!-- Student Timetable & Schedule Section -->
+        <section id="timetable">
+            <h2>Student Timetable</h2>
+            <table border="1">
+                <caption>Weekly Academic Timetable</caption>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Course</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>Web Application Development</td>
+                        <td>08:00–10:00</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>Database Systems</td>
+                        <td>10:00–12:00</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>Java Programming</td>
+                        <td>08:00–10:00</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>Secure Python Programming</td>
+                        <td>14:00–16:00</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>Software Engineering</td>
+                        <td>09:00–11:00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>Total Courses</th>
+                        <td colspan="2">5</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <br>
+
+            <h2>My Weekly Schedule</h2>
+            <table border="1">
+                <caption>My Personal & Academic Activities</caption>
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Day</th>
+                        <th>Activity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="3">Study</td>
+                        <td>Mon - Fri</td>
+                        <td>Classes</td>
+                    </tr>
+                    <tr>
+                        <td>Mon, Wed</td>
+                        <td>WAD Labs</td>
+                    </tr>
+                    <tr>
+                        <td>Tue, Thu</td>
+                        <td>Library Study</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Gaming</td>
+                        <td>Daily</td>
+                        <td>Genshin Impact</td>
+                    </tr>
+                    <tr>
+                        <td>Fri, Sat</td>
+                        <td>Rennsport Racing</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Personal</td>
+                        <td>Saturday</td>
+                        <td>Coding Projects</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>Rest & Music</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Total Activities</td>
+                        <td>7</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <!-- Sidebar / Aside -->
+        <aside>
+            <p>Note: Welcome to my personal website!</p>
+        </aside>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 Lenny</p>
+        <p>Student ID: 225020424</p>
+        <p>Email: lynxenglish@gmail.com</p>
+    </footer>
+
+</body>
+</html>
